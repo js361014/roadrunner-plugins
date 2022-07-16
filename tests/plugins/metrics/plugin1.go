@@ -1,8 +1,8 @@
 package metrics
 
 import (
+	"github.com/js361014/api/v2/plugins/config"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/roadrunner-server/api/v2/plugins/config"
 )
 
 // Gauge //////////////

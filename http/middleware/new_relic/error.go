@@ -3,8 +3,8 @@ package newrelic
 import (
 	"strings"
 
+	"github.com/js361014/roadrunner/v2/utils"
 	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/spiral/roadrunner/v2/utils"
 )
 
 const (

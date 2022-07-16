@@ -3,8 +3,8 @@ package jobs
 import (
 	"runtime"
 
-	"github.com/roadrunner-server/api/v2/plugins/jobs/pipeline"
-	poolImpl "github.com/spiral/roadrunner/v2/pool"
+	"github.com/js361014/api/v2/plugins/jobs/pipeline"
+	poolImpl "github.com/js361014/roadrunner/v2/pool"
 )
 
 const (

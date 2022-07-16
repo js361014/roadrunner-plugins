@@ -6,13 +6,13 @@ import (
 	"sync"
 
 	"github.com/gobwas/ws"
+	"github.com/js361014/api/v2/plugins/pubsub"
+	websocketsv1 "github.com/js361014/api/v2/proto/websockets/v1beta"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/websockets/commands"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/websockets/connection"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/websockets/validator"
 	json "github.com/json-iterator/go"
-	"github.com/roadrunner-server/api/v2/plugins/pubsub"
-	websocketsv1 "github.com/roadrunner-server/api/v2/proto/websockets/v1beta"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/websockets/commands"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/websockets/connection"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/websockets/validator"
 	"go.uber.org/zap"
 )
 

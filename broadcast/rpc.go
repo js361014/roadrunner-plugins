@@ -1,8 +1,8 @@
 package broadcast
 
 import (
-	"github.com/roadrunner-server/api/v2/plugins/pubsub"
-	websocketsv1 "github.com/roadrunner-server/api/v2/proto/websockets/v1beta"
+	"github.com/js361014/api/v2/plugins/pubsub"
+	websocketsv1 "github.com/js361014/api/v2/proto/websockets/v1beta"
 	"github.com/spiral/errors"
 	"go.uber.org/zap"
 )

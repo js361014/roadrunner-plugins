@@ -5,8 +5,8 @@ import (
 	"net/rpc"
 	"sync/atomic"
 
-	"github.com/roadrunner-server/api/v2/plugins/config"
-	api "github.com/roadrunner-server/api/v2/plugins/rpc"
+	"github.com/js361014/api/v2/plugins/config"
+	api "github.com/js361014/api/v2/plugins/rpc"
 	endure "github.com/spiral/endure/pkg/container"
 	"github.com/spiral/errors"
 	goridgeRpc "github.com/spiral/goridge/v3/pkg/rpc"

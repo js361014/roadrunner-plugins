@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	statusImpl "github.com/roadrunner-server/api/v2/plugins/status"
+	statusImpl "github.com/js361014/api/v2/plugins/status"
+	"github.com/js361014/roadrunner-plugins/v2/config"
+	httpPlugin "github.com/js361014/roadrunner-plugins/v2/http"
+	"github.com/js361014/roadrunner-plugins/v2/logger"
+	rpcPlugin "github.com/js361014/roadrunner-plugins/v2/rpc"
+	"github.com/js361014/roadrunner-plugins/v2/server"
+	"github.com/js361014/roadrunner-plugins/v2/status"
 	endure "github.com/spiral/endure/pkg/container"
 	goridgeRpc "github.com/spiral/goridge/v3/pkg/rpc"
-	"github.com/spiral/roadrunner-plugins/v2/config"
-	httpPlugin "github.com/spiral/roadrunner-plugins/v2/http"
-	"github.com/spiral/roadrunner-plugins/v2/logger"
-	rpcPlugin "github.com/spiral/roadrunner-plugins/v2/rpc"
-	"github.com/spiral/roadrunner-plugins/v2/server"
-	"github.com/spiral/roadrunner-plugins/v2/status"
 	"github.com/stretchr/testify/assert"
 )
 

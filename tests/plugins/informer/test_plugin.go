@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/server"
-	"github.com/spiral/roadrunner/v2/pool"
-	"github.com/spiral/roadrunner/v2/state/process"
+	"github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/server"
+	"github.com/js361014/roadrunner/v2/pool"
+	"github.com/js361014/roadrunner/v2/state/process"
 )
 
 var testPoolConfig = &pool.Config{

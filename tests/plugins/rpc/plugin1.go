@@ -3,7 +3,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/roadrunner-server/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/config"
 )
 
 type Plugin1 struct {

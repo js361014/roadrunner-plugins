@@ -1,7 +1,7 @@
 package v2_7 //nolint:stylecheck
 
 import (
-	"github.com/spiral/roadrunner/v2/pool"
+	"github.com/js361014/roadrunner/v2/pool"
 )
 
 type (

@@ -27,7 +27,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/spiral/roadrunner-plugins/v2/grpc/protoc_plugins/protoc-gen-php-grpc/php"
+	"github.com/js361014/roadrunner-plugins/v2/grpc/protoc_plugins/protoc-gen-php-grpc/php"
 	"google.golang.org/protobuf/proto"
 	plugin "google.golang.org/protobuf/types/pluginpb"
 )

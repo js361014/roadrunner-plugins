@@ -6,13 +6,13 @@ import (
 	"sync/atomic"
 	"time"
 
+	cfgPlugin "github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/jobs"
+	"github.com/js361014/api/v2/plugins/jobs/pipeline"
+	pq "github.com/js361014/roadrunner/v2/priority_queue"
 	json "github.com/json-iterator/go"
 	"github.com/nats-io/nats.go"
-	cfgPlugin "github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
-	"github.com/roadrunner-server/api/v2/plugins/jobs/pipeline"
 	"github.com/spiral/errors"
-	pq "github.com/spiral/roadrunner/v2/priority_queue"
 	"go.uber.org/zap"
 )
 

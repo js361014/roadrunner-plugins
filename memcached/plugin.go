@@ -1,10 +1,10 @@
 package memcached
 
 import (
-	"github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/kv"
+	"github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/kv"
+	"github.com/js361014/roadrunner-plugins/v2/memcached/memcachedkv"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/memcached/memcachedkv"
 	"go.uber.org/zap"
 )
 

@@ -3,10 +3,10 @@ package protocol
 import (
 	"sync"
 
+	"github.com/js361014/api/v2/plugins/jobs"
+	"github.com/js361014/roadrunner/v2/payload"
 	json "github.com/json-iterator/go"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner/v2/payload"
 	"go.uber.org/zap"
 )
 

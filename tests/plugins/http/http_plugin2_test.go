@@ -2,6 +2,7 @@ package http
 
 import (
 	"bytes"
+	newrelic "github.com/js361014/roadrunner-plugins/v2/http/middleware/new_relic"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -12,17 +13,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/config"
+	"github.com/js361014/roadrunner-plugins/v2/fileserver"
+	httpPlugin "github.com/js361014/roadrunner-plugins/v2/http"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/cache"
+	"github.com/js361014/roadrunner-plugins/v2/logger"
+	"github.com/js361014/roadrunner-plugins/v2/memory"
+	rpcPlugin "github.com/js361014/roadrunner-plugins/v2/rpc"
+	"github.com/js361014/roadrunner-plugins/v2/server"
 	json "github.com/json-iterator/go"
 	endure "github.com/spiral/endure/pkg/container"
-	"github.com/spiral/roadrunner-plugins/v2/config"
-	"github.com/spiral/roadrunner-plugins/v2/fileserver"
-	httpPlugin "github.com/spiral/roadrunner-plugins/v2/http"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/cache"
-	newrelic "github.com/spiral/roadrunner-plugins/v2/http/middleware/new_relic"
-	"github.com/spiral/roadrunner-plugins/v2/logger"
-	"github.com/spiral/roadrunner-plugins/v2/memory"
-	rpcPlugin "github.com/spiral/roadrunner-plugins/v2/rpc"
-	"github.com/spiral/roadrunner-plugins/v2/server"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -1,9 +1,9 @@
 package service
 
 import (
+	rrProcess "github.com/js361014/roadrunner/v2/state/process"
 	"github.com/shirou/gopsutil/process"
 	"github.com/spiral/errors"
-	rrProcess "github.com/spiral/roadrunner/v2/state/process"
 )
 
 func generalProcessState(pid int, command string) (rrProcess.State, error) {

@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/config"
+	httpPlugin "github.com/js361014/roadrunner-plugins/v2/http"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/headers"
+	"github.com/js361014/roadrunner-plugins/v2/logger"
+	"github.com/js361014/roadrunner-plugins/v2/server"
 	endure "github.com/spiral/endure/pkg/container"
-	"github.com/spiral/roadrunner-plugins/v2/config"
-	httpPlugin "github.com/spiral/roadrunner-plugins/v2/http"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/headers"
-	"github.com/spiral/roadrunner-plugins/v2/logger"
-	"github.com/spiral/roadrunner-plugins/v2/server"
 	"github.com/stretchr/testify/assert"
 )
 

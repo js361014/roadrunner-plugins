@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/roadrunner-server/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/config"
 	"github.com/spiral/errors"
 )
 

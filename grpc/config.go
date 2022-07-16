@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/js361014/roadrunner/v2/pool"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner/v2/pool"
 )
 
 type ClientAuthType string

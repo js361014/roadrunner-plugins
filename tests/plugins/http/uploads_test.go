@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/http/handler"
+	"github.com/js361014/roadrunner/v2/ipc/pipe"
+	poolImpl "github.com/js361014/roadrunner/v2/pool"
 	json "github.com/json-iterator/go"
-	"github.com/spiral/roadrunner-plugins/v2/http/handler"
-	"github.com/spiral/roadrunner/v2/ipc/pipe"
-	poolImpl "github.com/spiral/roadrunner/v2/pool"
 	"github.com/stretchr/testify/assert"
 )
 

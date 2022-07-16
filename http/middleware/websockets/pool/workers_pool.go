@@ -3,10 +3,10 @@ package pool
 import (
 	"sync"
 
+	"github.com/js361014/api/v2/plugins/pubsub"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/websockets/connection"
+	"github.com/js361014/roadrunner/v2/utils"
 	json "github.com/json-iterator/go"
-	"github.com/roadrunner-server/api/v2/plugins/pubsub"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/websockets/connection"
-	"github.com/spiral/roadrunner/v2/utils"
 	"go.uber.org/zap"
 )
 

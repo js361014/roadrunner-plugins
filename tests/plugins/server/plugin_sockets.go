@@ -3,13 +3,13 @@ package server
 import (
 	"context"
 
-	"github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/server"
+	"github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/server"
+	serverImpl "github.com/js361014/roadrunner-plugins/v2/server"
+	"github.com/js361014/roadrunner/v2/payload"
+	"github.com/js361014/roadrunner/v2/pool"
+	"github.com/js361014/roadrunner/v2/worker"
 	"github.com/spiral/errors"
-	serverImpl "github.com/spiral/roadrunner-plugins/v2/server"
-	"github.com/spiral/roadrunner/v2/payload"
-	"github.com/spiral/roadrunner/v2/pool"
-	"github.com/spiral/roadrunner/v2/worker"
 )
 
 type Foo2 struct {

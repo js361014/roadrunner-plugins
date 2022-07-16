@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/js361014/roadrunner-plugins/v2/http/attributes"
+	"github.com/js361014/roadrunner-plugins/v2/http/handler"
 	json "github.com/json-iterator/go"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/http/attributes"
-	"github.com/spiral/roadrunner-plugins/v2/http/handler"
 )
 
 type AccessValidatorFn = func(r *http.Request, channels ...string) (*AccessValidator, error)

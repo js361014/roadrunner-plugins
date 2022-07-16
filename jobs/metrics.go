@@ -3,8 +3,8 @@ package jobs
 import (
 	"sync/atomic"
 
+	"github.com/js361014/api/v2/plugins/informer"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/roadrunner-server/api/v2/plugins/informer"
 )
 
 func (p *Plugin) MetricsCollector() []prometheus.Collector {

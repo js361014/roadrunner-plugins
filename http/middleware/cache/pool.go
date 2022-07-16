@@ -3,8 +3,8 @@ package cache
 import (
 	"hash"
 
-	cacheV1beta "github.com/roadrunner-server/api/v2/proto/cache/v1beta"
-	"github.com/spiral/roadrunner-plugins/v2/http/middleware/cache/directives"
+	cacheV1beta "github.com/js361014/api/v2/proto/cache/v1beta"
+	"github.com/js361014/roadrunner-plugins/v2/http/middleware/cache/directives"
 )
 
 func (p *Plugin) getHash() hash.Hash64 {

@@ -9,9 +9,9 @@ import (
 	"path"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/grpc/parser"
+	"github.com/js361014/roadrunner-plugins/v2/grpc/proxy"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/grpc/parser"
-	"github.com/spiral/roadrunner-plugins/v2/grpc/proxy"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

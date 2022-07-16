@@ -3,10 +3,10 @@ package informer
 import (
 	"context"
 
-	"github.com/roadrunner-server/api/v2/plugins/informer"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
+	"github.com/js361014/api/v2/plugins/informer"
+	"github.com/js361014/api/v2/plugins/jobs"
+	"github.com/js361014/roadrunner/v2/state/process"
 	endure "github.com/spiral/endure/pkg/container"
-	"github.com/spiral/roadrunner/v2/state/process"
 )
 
 const PluginName = "informer"

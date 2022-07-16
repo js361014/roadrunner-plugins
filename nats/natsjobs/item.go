@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/js361014/roadrunner/v2/utils"
 	json "github.com/json-iterator/go"
 	"github.com/nats-io/nats.go"
-	"github.com/spiral/roadrunner/v2/utils"
 )
 
 type Item struct {

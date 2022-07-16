@@ -1,18 +1,18 @@
 package memory
 
 import (
-	"github.com/roadrunner-server/api/v2/plugins/cache"
-	"github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
-	"github.com/roadrunner-server/api/v2/plugins/jobs/pipeline"
-	"github.com/roadrunner-server/api/v2/plugins/kv"
-	"github.com/roadrunner-server/api/v2/plugins/pubsub"
+	"github.com/js361014/api/v2/plugins/cache"
+	"github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/jobs"
+	"github.com/js361014/api/v2/plugins/jobs/pipeline"
+	"github.com/js361014/api/v2/plugins/kv"
+	"github.com/js361014/api/v2/plugins/pubsub"
+	"github.com/js361014/roadrunner-plugins/v2/memory/memoryhttpcache"
+	"github.com/js361014/roadrunner-plugins/v2/memory/memoryjobs"
+	"github.com/js361014/roadrunner-plugins/v2/memory/memorykv"
+	"github.com/js361014/roadrunner-plugins/v2/memory/memorypubsub"
+	priorityqueue "github.com/js361014/roadrunner/v2/priority_queue"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/memory/memoryhttpcache"
-	"github.com/spiral/roadrunner-plugins/v2/memory/memoryjobs"
-	"github.com/spiral/roadrunner-plugins/v2/memory/memorykv"
-	"github.com/spiral/roadrunner-plugins/v2/memory/memorypubsub"
-	priorityqueue "github.com/spiral/roadrunner/v2/priority_queue"
 	"go.uber.org/zap"
 )
 

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/config"
+	"github.com/js361014/roadrunner-plugins/v2/logger"
+	"github.com/js361014/roadrunner-plugins/v2/rpc"
 	endure "github.com/spiral/endure/pkg/container"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/config"
-	"github.com/spiral/roadrunner-plugins/v2/logger"
-	"github.com/spiral/roadrunner-plugins/v2/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

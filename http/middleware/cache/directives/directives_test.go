@@ -3,7 +3,7 @@ package directives
 import (
 	"testing"
 
-	"github.com/spiral/roadrunner/v2/utils"
+	"github.com/js361014/roadrunner/v2/utils"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

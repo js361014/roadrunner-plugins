@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	cfgPlugin "github.com/js361014/api/v2/plugins/config"
+	"github.com/js361014/api/v2/plugins/jobs"
+	"github.com/js361014/api/v2/plugins/jobs/pipeline"
+	priorityqueue "github.com/js361014/roadrunner/v2/priority_queue"
+	"github.com/js361014/roadrunner/v2/utils"
 	amqp "github.com/rabbitmq/amqp091-go"
-	cfgPlugin "github.com/roadrunner-server/api/v2/plugins/config"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
-	"github.com/roadrunner-server/api/v2/plugins/jobs/pipeline"
 	"github.com/spiral/errors"
-	priorityqueue "github.com/spiral/roadrunner/v2/priority_queue"
-	"github.com/spiral/roadrunner/v2/utils"
 	"go.uber.org/zap"
 )
 

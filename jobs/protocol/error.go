@@ -1,8 +1,8 @@
 package protocol
 
 import (
+	"github.com/js361014/api/v2/plugins/jobs"
 	json "github.com/json-iterator/go"
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
 	"github.com/spiral/errors"
 	"go.uber.org/zap"
 )
